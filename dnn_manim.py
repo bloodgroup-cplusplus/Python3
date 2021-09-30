@@ -79,6 +79,21 @@ predictions = model.predict(X)
 rounded = [round(x[0]) for x in predictions]
 
 # make class predictions wit the model 
+# With explicit InputLayer.
+model = tf.keras.Sequential([
+  tf.keras.layers.InputLayer(input_shape=(4,)),
+  tf.keras.layers.Dense(8)])
+model.compile(tf.optimizers.RMSprop(0.001), loss='mse')
+model.fit(np.zeros((10, 4)),
+          np.ones((10, 8)))
+
+# Without InputLayer and let the first layer to have the input_shape.
+# Keras will add a input for the model behind the scene.
+model = tf.keras.Sequential([
+  tf.keras.layers.Dense(8, input_shape=(4,))])
+model.compile(tf.optimizers.RMSprop(0.001), loss='mse')
+model.fit(np.zeros((10, 4)),
+          np.ones((10, 8)))
 
 
 
