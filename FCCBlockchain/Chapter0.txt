@@ -1,0 +1,127 @@
+coin used to make p2p transaction in decentralized network
+
+Bitcion
+        # Digital Store of Value
+        # Digital Gold
+        # Bitcion has a scarce Quantity
+        # Read more about it in the white paper
+
+
+
+Ethereum
+
+        # protocol using same blockchain infrastrcutre
+        # smart contracts allow for agreements without centralized intermedaries
+        # Bitcoins + Adding smart contracts
+
+        # Smart Contracts are self executing sets of instructions, they come to life on the blockchain
+
+        # smart contracts are similar to regular contracts but it is written in code
+        # terms of agreeement are written in code and executed by the decentralized blockchain
+
+        # Bitcoin also does have smart contract but its very limited unlike ethereum
+
+        # Utility for people to build smart contracts
+        # Nickszabo was the pioneer of smart contracts (the idea)
+
+
+
+The oracle Problem(fatal flaw)
+        # blockchain are deterministic
+
+        # Everything happens inside in a black box
+        # Smart contracts need real world data
+        # this is where orcles come to play
+        # Smart contracts need to import export data to internal or external for carrying out computations
+
+        # Blockchains and smart contracts are decentralized
+        # inorder to stay decentralized we also needs computations and data decentralized
+        # so we build hybrid smart contract
+        # chainlink is decentralized oracle data that helps us to bring data to the blocchain etc
+        # chainlinks allows for unlimited amount of activities in decentralized manner
+        #Smart contracts come to life on blockchain
+        # Blockchain oracles such as chain link does the idea of
+        # Bitcoin networks has assets
+        # Etheruem viewed them as
+        # Hybrid = smartcontract + offchain smart contract
+        #DApp == smartcontract == decentralized application
+        #What is a singular contract
+        # Ethereum protocol has given rise to defi nfts daos layers2 etc
+        # other protocols have taken
+        #vision of ethereum is similairt to polygon etc
+        #ethereum is the fundamentals
+        # learning fundamentals will translate to any other blockchain
+        #ethereum is most used smart contract platform/ protocol
+        #chainlink is most powerful oracle network
+        # chinlink works on polygon polkadot ethereum or any other blockchain
+
+SUMMARY
+# Bitcion is a digital gold
+# Ethereuem allows for smart contracts
+# code with smart contracts
+#chainlink provides data and external computation to smart contracts
+# combination of on-chain and off-chain components
+# Advantages of blockchan and smart contracts
+
+
+        # Decentralized : no centralized source that control the blockchain
+        # node operators are independent blockchain
+        # blockchain is here to solve the centralized authority problem
+        # freeze your funds
+        # control your interaction with the system
+
+
+
+        #Transparency and Flexibility : No backdoor deals
+        # everything is transparent
+        # Everyone can see what exactly those rules
+        # Blockchain is pseudo anonymous
+
+
+        # Speed and Efficiency: Blockchains are verified by decentralized components
+        # Stock trading or hedge fund world takes week to buy/sell stock
+
+
+        #SEcurity and Immutability: cannot be changed and massive change in data etc.
+
+        # On a blockchain if several nodes goes down cause as long as there is one node running
+        # everything that happens is irreversible
+        #hacking is not possible
+        # asset is locked on a blockchain
+        # to access the asset we just need the private key
+
+
+        # Removal of Massive counterparty risk:
+                # This agreement is a massive conflict of interest
+                # e.g., insurance provideers for health emergencies
+                # insurance companies are in the business of making money
+                # they are the ones who are going to execute something
+                # wasting time going through baseless arguments
+
+
+# Trust Minimized Agreements:
+                # smart contracts allows us to move from brand based agreements to math based agreements
+
+                # code determines the input output and it is same every single time
+
+
+        # Allows to work in environment wherethere is no centralized controlling body
+
+
+# economic opportunity
+# we no longer get bombarded by centralized authority to use their servicees
+
+
+
+Blockchain and Smart contracts
+
+1)Decentralized
+2) Transparent
+3) Speed
+4) Immutable
+5) Remove Coutnerparty Risk ( smart contract)
+6) Allow for trust minimized agreements
+7) Paired with oracle to get data from world to bring data and computation from external world
+
+8) DAOs are ones which live in decentralized chains
+
