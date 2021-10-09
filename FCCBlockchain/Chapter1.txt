@@ -1,1 +1,67 @@
 
+estnets are free and for testing smart contracts
+Mainnet costs money and are considered "live"
+
+All the above jargons are related to metamask wallet
+
+faucet.rinkbey.io // for simulating test ethereum transactions
+
+Faucet:
+        Is an application that gives us free test tokens, like free test Rinkeby Ethereum
+
+
+Etherscans is also known as blockexplorer
+
+
+BlockExplorer:
+        An application that allows us to "view" transactions that happen on a blockchain.
+
+
+
+
+GAS:
+        Gas is a unit of computational measure. The more computation a transaction uses
+        the more "gas" you have to pay for
+
+
+        Every transaction that happens on-chain pays a "gass fee" to the node operators
+
+
+
+Any time you do something on a blockchain it costs gas
+
+
+The amount of "gas" used and how much you pay depends on how "computationally expensive" your transaction is
+
+
+Sending ETH to 1 address would be "cheaper" than sending ETH to 1,000 addresses
+
+
+The gas limit 0.00000000000000001 (1 gwei) for gas fees
+
+
+Gas : Measure of Computation Use
+
+Gas Price: How much it costs per unit of gas
+
+
+Gas Limit : Max amount of gas in transaction
+
+
+
+Transaction Fee: Gas Used * Gas Price
+
+
+i.e.: 21000 gas @ 1 GWEI per gas = 21,000 21,000 GWEI
+
+
+Why pay higher gas fees: Since there are a large amount of transactions going on in the blockchain therefore if we pay higher amount of gas fees it is very likely that our transactions will be given high priority
+
+A gas station is a gas estimator
+
+Gas price is based off the "demand" of the blockchain
+
+
+The more poeple want to make transactions, the higher the gas price, and therefore the higher the transaction fees.
+
+ethgasstation.info ( before making any transactions made)
