@@ -1,5 +1,6 @@
 andersbrownworth.com/blockchain/public-private-keys/keys
 https://rinkeby.etherscan.io
+The only link you will need (https://github.com/smartcontractkit/full-blockchain-solidity-course-py#resources-for-this-course)
 
 ethgasstation.info
 metamask.io
