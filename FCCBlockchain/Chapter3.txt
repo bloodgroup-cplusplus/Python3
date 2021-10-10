@@ -1,1 +1,98 @@
 
+onsensus:
+        Proof of work and Proof of stake fall under the umbrella of consensus
+
+Hashing/ Hash Function
+
+Node: A single instance in a decentralized network
+
+Anyone can join the network ( decentralized) and participate and that is what it makes it truly decentralized
+
+If a centralized entity goes down it goes down
+
+Blockchain are resilient : If one node goes down it does not matter .
+
+Most of the popular chains have thousands and thousands of nodes
+
+If one node acts maliciously it will be dismissed by other nodes
+
+Majority rules
+
+Blockchain nodes keep lists of the transactions that occur
+
+Blockchain has immutability
+
+blockchain = decentralized database
+
+Ethereum = decentralized database + computational work
+
+
+
+
+
+Consensus : Is the mechanism used to agree on the state of the blockchain
+
+Proof of work = Mininig
+
+Consensus is the mechanism used ot agree on the state of a blockchain
+
+
+Consensus :
+                1) Chain Selection Algorithm 2) Sybil Resistence Alogrithm
+
+                2) Proof of work is sybil resitsenc mechanism . Which nodes did the work to find the mine so that other nodes can verify who did the work
+
+                Sybil Resistence : Is a way of blocks to verify pseudo anonymous identities and influence over system . It is a defense mechansim shown by blockchain
+                against some malicious people who keep on creating or adding nodes to the required blockchain..
+
+
+POW and POS : Proof of Work and Proof of Stake :
+
+        Proof of Work : A single node has to go through a very computationally intensive work known as mining to finding the correct nonce
+        no matter how many pseudoanonymous nodes we make, each one has to go through this very activites involving verificaion of finding answer to the proof of work
+        finding nonce with first four zeros
+
+        Block time: How much time it takes for a block to be published and it is proportional to how hard these algorithms are . So these problems change
+
+        If the system wants block time to be very long the work is very hard (computatiion intensive)
+
+
+
+
+If one chain does somethihng and others don't the block will be dismissed
+
+
+Block-time: How long the time on a block is spent while doing computations
+
+Consensus :
+                1) Chain Selection : How do we know which blockchain is the true blockchain . (Merkle Trees)
+                On bitcoin and ethereum use Nakamoto consensus
+
+                2) Whichever block has the longest chain is the one which has done most work
+
+
+                3) Number of  block confirmations is number of block added after we did the transactions
+
+
+                4) Proof of work is the piece of overall consensus
+
+
+                5) Nakamoto consensus is the actual
+
+
+                6) Proof of work is a piece of consensus protocl
+
+
+Proof of work tells where these fees and transactions fees go to
+
+Transactions fees goes to miners ( pow) and validatiors( pos)
+
+Pow = All blocks are competing against each other to get the answer first
+
+The first node to figure out the answer gets the transaction fee
+
+The pow is energy intensive
+
+Transaction Fees: The gas required to carry out our transaction
+
+Blockchain halving :
