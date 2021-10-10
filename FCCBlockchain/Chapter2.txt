@@ -1,0 +1,70 @@
+Hash:
+        A unique fixed length string, meant to identify a piece of data. They are crated by placind said data into a "hash function"
+
+
+They have to find out
+
+Nonce is the solution to the problem
+
+
+The key idea is to find a nonce that fulfills the Hash
+
+
+Elliptic Cruve cryptography to get the public private key
+
+
+PUblic key is publicly available to all users whereas private key is private to you
+
+
+Generation of public-private keys requires elliptic key cryptography
+
+We can create message signature with our private key but somebody else cannot derive our private key via the message signature
+
+Private-Key : Used to sign message signatures
+
+Public-key : Used to verify message signatures
+
+
+Using public -keys anyone can verify the signature is yours
+
+so no one can fake a transaction
+
+
+
+SUMMARY:
+
+PUBLIC-KEY :    Is derived from your private key. Anyone can use your public key to verify the transactions
+
+
+SIGNING A TRANSACTION: A "one way" process. Someone with a private key signs a transaction by their private key being
+being hashed with their transaction data
+
+Anyone can then verify this new transaction hash with your public key.
+
+
+Private Key ||||| >Creates Public Key creates Address
+
+
+Blockchain run on pair of different independent users
+
+Node: A single instance in a  decentralized network
+
+One server running this technology
+
+Anyone can join the network
+
+(Decentralized)
+
+
+Applications are usually run by centralized entities : They control everythin
+
+
+Blockchain are resilient : If one node goes down we make sure one chain is always running
+
+If one node acts maliciously they can easily be dismissed
+
+Each blockchain nodes keep lists of the transacitons that occur
+
+This give blockchain gives immutability chain
+
+Blockchain is a decentralized database
