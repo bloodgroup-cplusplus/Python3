@@ -1,0 +1,129 @@
+Block Confirmations: number of additional blocks after our blocks
+
+Proof of work as a consensus protocol : Proof of work is a piece of overall consensus work
+
+
+Both equally and very very important
+
+
+
+Who is getting these transactions: Miners / Validators ( Pow = Miners ) / (Pos = Validators)
+
+
+
+In our example to find the hash that has four zeros at the beginning
+
+
+
+Proof of work uses a lot of energy
+
+
+When a node is paid it is paid in two different ways
+
+The first is using a transaction fees and the other is using the block reward
+
+
+Transaction Fees: The transaction fee we are going to pay . Blockreward is
+
+
+Blockreward getting cut into half = Increases the amount of money in transaction
+
+
+Blockreward and Transaction fees
+
+
+Gas fees are paid by whoever makes the transaction
+
+
+Two types of attacks
+
+Sybil Attack: Who bunch of pseudo anonymous attacks to create more
+
+when single nodes try to create more amount of nodes by carrying out transaction
+
+51% attack : the 51%
+
+The longest chain rule : the new nodes will follow the longest chain
+
+
+Different longest chain fits it on and 51% of the network and
+
+ETH classic is not ETH . (ETH is forked of eth classic)
+
+Proof of work helps us to protect against symbil attack
+
+Proff of Work uses a lot of energy
+
+
+Proof of Stake (POS) protocol are thriving (avalache, solana, polkadot)
+
+Eth2 has proof of stake
+
+all the tools are going to work in eth2
+
+Proof of stake nodes put up collateral as as sybil
+
+
+Proof of stake requires putting some eth coins on the stake and in case the miners acts maliciously their stake is taken away from them
+
+For mining each node we need to put some eth on stake  and if we misbehave we loose the amount
+
+
+in pos mining is called Validators
+In pos nodes are randomly choosen and rest of the node verify
+
+
+Randomness: Blockchains are determinnistic system. How do we choose random validotrs
+in Eth2.0 they use
+
+Randomness solutions of blockchain
+
+
+Proof of stake: uses less energy, good way to figure out author
+
+Cons: Slightly less decentralized network  (how decentralized is decentralized enough)
+
+Proof of stake is very decentralized and very secure
+
+reduces environmental problems by 99 percent
+
+
+Scalability: When a lot of people want to use blockchains the gas price sky rockets. This is not scalable . When more and more poeple want to use blockchain, it is going to cost them a lot of money
+
+
+It is going to cost more and more to used the blockchain .
+
+Eht2.0 also implements sharding which is a solution to scalability problem
+
+A blockchain of blockchain
+
+There is more chain for people to make transactions on
+
+Sharding can help transactions
+
+Layer1: Base Layer blockchan implementtaion ( base layer blockchain solutions)
+
+Layer 2: Any application built on top of a layer 2 ( chainlink , arbitrium)
+
+
+Arbirium and Optimum are Rollups : rollups their transaction to
+
+Rollups: derive security from base layers
+
+
+
+SUMMARY:
+
+ETH and BTC are Proof of Work ( at the time of recording ) that follow nakamoto consensus however
+eth2.0 will be proof of stake sharded blockchains
+
+51%percent attacks
+
+sharding and rollups are scabliby solutions
+
+
+Only so many transactions can fit into the block
+
+
+Gas price are how much it costs to make the transactions in a blockchain.
+
