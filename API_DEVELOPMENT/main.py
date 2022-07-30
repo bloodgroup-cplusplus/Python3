@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.params import Body
 
 
 app = FastAPI()
@@ -38,6 +39,43 @@ async def root():
 @app.get("/posts")
 def get_posts():
     return {"data": "This is your post"}
+
+# if the two functions are same the fast api looks top down format
+# FIFO method
+# once we have to send data to api we need a frontend application
+# there is a lot of differnt tools we have
+# one of these tools is called postman
+# postman for api testing
+
+
+# with post request we can send data to our API server
+# post requst with data on the api server
+# and the api will send the api we want
+# title content
+# we send it to api server
+# it can send back some data
+# a get request is saying get some data
+# a post requst is giveing data to api server
+
+@app.post("/createposts")
+
+def create_posts(payLoad:dict = Body(...)):
+    #payload is the data we get from the Body ( frontend )
+
+    print(payLoad)
+
+
+#why we need schema
+# It's a pain to get all the values from the body
+# The client can send whatever data they want
+# The data isn't getting validated
+# We ultimately want to force the client to send data in a schema that we
+# expect
+
+
+
+
+
 
 
 
