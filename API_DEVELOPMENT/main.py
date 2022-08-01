@@ -2,7 +2,19 @@ from fastapi import FastAPI
 from fastapi.params import Body
 
 
+# we use pydantic it's is own complete library which you can use with any of
+# the applciaton
+from pydantic import BaseModel
+
 app = FastAPI()
+
+
+class Post(BaseModel):
+    # pass properties for the post
+    # we can set the field types given in the documentation
+    # we know what title should look like
+    title: str
+    content: str
 
 #this is called path operation
 #the first component is the function and the second component is the decorateor
@@ -58,22 +70,32 @@ def get_posts():
 # a post requst is giveing data to api server
 
 @app.post("/createposts")
+def create_posts(new_post:Post):
 
-def create_posts(payLoad:dict = Body(...)):
     #payload is the data we get from the Body ( frontend )
+    print(new_post)
+    return {"data":"new post"}
 
     print(payLoad)
+
 
 
 #why we need schema
 # It's a pain to get all the values from the body
 # The client can send whatever data they want
+# we don't want client arbitrary data
 # The data isn't getting validated
 # We ultimately want to force the client to send data in a schema that we
-# expect
+# expect them to send
+# ultimately force the user into schema that we write
+# define what the data should look like
+#Let's figure out the data structure
 
-
-
+# title : str,
+# content : str,
+# we just want these two things.
+# maybe a boolean that represents that is a draft or a boolean post but here we
+# only have title and ocontent
 
 
 
